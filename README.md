@@ -49,39 +49,5 @@ This project demonstrates the effectiveness of using LSTM models and undersampli
 - **Explainability:** Integrate techniques like LIME (Local Interpretable Model-Agnostic Explanations) to understand model decision-making processes.
 - **Real-time Application:** Develop real-time detection systems for social media platforms and news websites.
 
-## Installation and Usage
-### Prerequisites
-Ensure you have the following dependencies installed:
-```bash
-pip install tensorflow nltk pandas scikit-learn
-```
-
-### Clone Repository
-```bash
-git clone https://github.com/your-username/fake-news-detection.git
-cd fake-news-detection
-```
-
-### Running the Model
-1. Preprocess the data:
-```python
-python preprocess.py
-```
-2. Train the model:
-```python
-python train.py
-```
-3. Evaluate the model:
-```python
-python evaluate.py
-```
-
-### Testing on New Articles
-To test the model on new news articles, run:
-```python
-python predict.py --text "Your news article here"
-```
-
-
 ## Contact
 For questions or collaborations, contact reshmi14@uw.edu
